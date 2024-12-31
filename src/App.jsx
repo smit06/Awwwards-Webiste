@@ -1,11 +1,14 @@
-import React from 'react'
+import About from './components/About/About.jsx';
+import Hero from './components/Hero/Hero.jsx';
 
 const App = () => {
   return (
-    <main>
-        <h1 className="text-3xl font-bold text-orange-500">
-          Welcome to Awwards Website
-        </h1>
+    <main className='relative min-h-screen w-screen overflow-x-hidden'>
+
+        <Hero />
+
+        <About />
+
     </main>
   )
 }
