@@ -1,3 +1,4 @@
+import AnimatedTitle from "../AnimatedTitle/AnimatedTitle.jsx";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -33,7 +34,10 @@ const About = () => {
         </h2>
 
         <div className="mt-5 text-center text-4xl uppercase leading-[0.8] md:text-[6rem]">
-          Disc<b>o</b>ver the world's <br /> l<b>a</b>rgest shared adventure
+          <AnimatedTitle
+            title="Disc<b>o</b>ver the world's <br /> l<b>a</b>rgest shared adventure"
+            containerClass="mt-5 !text-black text-center"
+          />
         </div>
 
         <div className="about-subtext">
